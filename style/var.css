@@ -3,6 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 /*font-family: "Sora", sans-serif;*/
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 :root {
     --color1: #CAED00;
     --color2: #94A822;
