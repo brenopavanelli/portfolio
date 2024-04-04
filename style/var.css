@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+/*font-family: "Sora", sans-serif;*/
+
+:root {
+    --color1: #CAED00;
+    --color2: #94A822;
+    --color3: #41471D;
+    --color4:  #16170E;
+    --color5: #0C0D0A;
+
+    --cblack: black;
+    --cwhite: white;
+}
