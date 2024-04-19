@@ -1,0 +1,26 @@
+nav {
+    background-color: var(--color5);
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    height: 8vh;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    letter-spacing: 2px;
+}
+
+#menu a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    padding: 5px;
+    background-color: var(--color1);
+    color: var(--color3);
+    border-radius: 10px;
+}
