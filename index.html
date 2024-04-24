@@ -5,13 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/imgs/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style/var.css">
-    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>Portfólio - Breno Pavanelli</title>
 </head>
 <body>
     <nav>
-        <img src="" alt="Logo">
-        <div id="menu">
+        <div class="nav-bar">
+            <img src="" alt="Logo">
+            <div id="menu">
+                <a href="">
+                    <p>Sobre</p>
+                </a>
+                <a href="">
+                    <p>Skills</p>
+                </a>
+                <a href="">
+                    <p>Projetos</p>
+                </a>
+                <a href="">
+                    <p>Contato</p>
+                </a>
+            </div>
+            <div id="mobile-menu-icon">
+                <button onclick="Clique()"><img src="assets/imgs/menu_white_36dp.svg" alt="" id="burguer"></button>
+            </div>
+        </div>
+        <div class="mobile-menu">
             <a href="">
                 <p>Sobre</p>
             </a>
@@ -75,5 +94,6 @@
         <img src="" alt="">
         <img src="" alt="">
     </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

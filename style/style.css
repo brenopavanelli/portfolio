@@ -1,0 +1,39 @@
+#menu { display: none; }
+
+.nav-bar {
+    background-color: var(--color5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 10vh;
+}
+
+#mobile-menu-icon > button {
+    background: transparent;
+    border: 0px solid;
+}
+
+.mobile-menu {
+    background-color: var(--color4);
+    text-align: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.313) ;
+    width: 100vw;
+    position: absolute;
+    display: none;
+}
+
+.mobile-menu a  {
+    text-decoration: none;
+    color: var(--color1);
+    
+}   
+
+.mobile-menu p {
+    border: 1px var(--color5) solid;
+    padding: 5px;
+}
+
+.open { display: block; }
+
+
